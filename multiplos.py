@@ -10,7 +10,7 @@ N = map(int, N.split())
 A, B = N
 
 
-if A % B == 0:
+if B % A == 0:
     print("Sao Multiplos")
 else:
-    print("Nao Sao Multiplos")
+    print("Nao sao Multiplos")
