@@ -9,7 +9,8 @@ N = int(input())
 
 for i in range(N):
     _input = input()
-    A, B, C = _input.split()
+    _input = map(float, _input.split())
+    A, B, C = _input
+    media = ((A * 2) + (B * 3) + (C * 5)) / 10
 
-media = (A * 2 + B * 3 + C * 5) / 10
-print("%.1f" % media)
+print(media)
