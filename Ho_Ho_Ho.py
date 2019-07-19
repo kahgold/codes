@@ -8,5 +8,6 @@ Created on Fri Jul 19 13:33:17 2019
 """
 N = int(input())
 
-for i in range(N):
+for i in range(N - 1):
     print("Ho", end=" ")
+    print("!", end="")
