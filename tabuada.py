@@ -9,4 +9,4 @@ Created on Wed Jul 17 11:55:22 2019
 N = int(input())
 
 for i in range(1, 11):
-    print('{} X {} = {}'.format(i, N, i * N))
+    print('{} x {} = {}'.format(i, N, i * N))
